@@ -1,0 +1,30 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "wath:build_": "npm-run-all --parallel build"
+  },
+  "dependencies": {
+    "vue": "^3.3.7",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "nodemon": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.69.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5",
+    "vuelidate": "^0.7.7",
+    "vuex": "^4.1.0"
+  }
+}
